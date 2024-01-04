@@ -16,7 +16,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(name: "SwiftSyntax",
                  url: "https://github.com/talaoui-accor/swift-syntax",
-                 .exact("2c964810635f42b77f28c557d17bb5ab21caabbb")),
+                 .version("2c964810635f42b77f28c557d17bb5ab21caabbb")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
